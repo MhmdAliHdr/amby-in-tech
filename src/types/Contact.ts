@@ -1,7 +1,7 @@
-interface Contact {
+interface ContactType {
     email: string,
     address: string,
     phoneNumber: string
 }
 
-export type { Contact }
+export type { ContactType }

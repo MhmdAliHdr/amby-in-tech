@@ -3,7 +3,7 @@ interface Project {
     description: string
     url: string | undefined
     repo: string
-    img: string
+    img: string | undefined
 }
 
 export type { Project }

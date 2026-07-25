@@ -1,7 +1,7 @@
-interface About {
-    drawnImg: string
+interface AboutType {
+    drawnImg: string | undefined
     realImg: string
     description: string
 }
 
-export type { About }
+export type { AboutType }

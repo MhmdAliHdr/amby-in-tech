@@ -1,7 +1,7 @@
 import type { Project } from "./Project";
 
-interface Portfolio {
+interface PortfolioType {
     projects: Project[]
 }
 
-export type {Portfolio}
+export type {PortfolioType}

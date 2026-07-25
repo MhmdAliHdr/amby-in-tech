@@ -1,6 +1,6 @@
 import type { Post } from "./Post";
 
-interface Blog {
+interface BlogType {
     posts: Post[]
 }
-export type { Blog }
+export type { BlogType }
