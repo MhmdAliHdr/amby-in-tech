@@ -7,13 +7,6 @@ body {
   min-height: 100vh;
   z-index: -1;
 }
-body::before, body::after {
-  content: ""; position: fixed; inset: 30;
-  z-index: -1; pointer-events: none;
-}
-#root { background: transparent; }
-body::before { filter: url(#crumple); mix-blend-mode: lighten;  opacity: .85; }
-body::after  { filter: url(#crumple); mix-blend-mode: multiply; opacity: .2; }
 .bentham-regular {
   font-family: "Bentham", serif;
   font-weight: 400;
