@@ -1,15 +1,22 @@
 import About from './components/About'
-import Blog from './components/Blog'
 import './App.css'
 import Portfolio from './components/Portfolio'
-import Main from './components/Main'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
     <>
+    <div className="grid grid-cols-1 gap-2 grainy-sandpaper">
+      
+      <div>
       <About></About>
-      <Main></Main>
+      <Portfolio></Portfolio>
+      <Contact></Contact>
+      <Footer></Footer>
+      </div>
+    </div>
     </>
   )
 }
