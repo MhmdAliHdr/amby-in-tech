@@ -3,7 +3,7 @@ function Project(props: ProjectType) {
     return (
         <div className="text-center pt-10 pb-10 rounded-tr-3xl rounded-bl-3xl m-6 sm:m-12 md:m-30 md:mt-20">
         <div className="bg-[#ffffff] pt-10 pb-10 border-t-5 border-l-5 border-r-5 border-dashed border-[#D6D0C5]">
-        <img className="h-32 md:h-40 w-full max-w-[27.5rem] px-4 mx-auto object-contain w-110" src={props.img} alt={props.title}></img>
+        <img className="h-32 md:h-40 w-full max-w-[27.5rem] px-4 mx-auto object-contain" src={props.img} alt={props.title}></img>
         </div>
         <div className="bg-[#f3f3f3] border-[#243c5a] border-b-5 border-l-5 border-r-5 border-dashed border-[#D6D0C5] pb-10 pt-10">
         <h1 className="bentham-regular text-3xl md:text-4xl text-[#261732] px-4">{props.title}</h1>
