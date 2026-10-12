@@ -3,7 +3,7 @@ import type { FooterType } from "../types/Footer"
 function Footer() {
     const footerInfo: FooterType = {email: "mohammadali.hd3@gmail.com", address: "Boutersem, Belgium", phoneNumber: "+32 479 19 08 51"}
     return (
-        <div className="flex flex-col md:flex-row justify-center gap-8 items-center mx-auto mb-13 mt-13 px-6 text-center text-[#261732]">
+        <div className="flex flex-col md:flex-row justify-center bg-[#D6D0C5] gap-8 items-center mx-auto pb-13 mt-13 px-6 text-center text-[#261732]">
         <b className="w-full md:w-80 break-words"><svg className="mr-auto ml-auto w-13" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="24px" fill="#261732"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg>
         <a href={`mailto:${footerInfo.email}`}>{footerInfo.email}</a>
         </b>
